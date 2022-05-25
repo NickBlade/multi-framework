@@ -12,10 +12,10 @@ echo shared_scripts { >> %scriptname%/fxmanifest.lua
 echo    './shared/config.lua' >> %scriptname%/fxmanifest.lua
 echo } >> %scriptname%/fxmanifest.lua
 echo server_scripts { >> %scriptname%/fxmanifest.lua
-echo 	'./server/main.lua' >> %scriptname%/fxmanifest.lua
+echo 	'./server/server.lua' >> %scriptname%/fxmanifest.lua
 echo } >> %scriptname%/fxmanifest.lua
 echo client_scripts { >> %scriptname%/fxmanifest.lua
-echo 	'./client/main.lua', >> %scriptname%/fxmanifest.lua
+echo 	'./client/client.lua', >> %scriptname%/fxmanifest.lua
 echo 	'./client/modules/framework.lua' >> %scriptname%/fxmanifest.lua
 echo } >> %scriptname%/fxmanifest.lua
 
